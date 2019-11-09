@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Game</title>
+            <script src="quiz.js"></script> 
+            <link rel="stylesheet" href="quizStyle.css">
+    </head>
+    <body>
+        
+     <strong><p>Quiz De Musique</p> </strong>
+     <div id="reslt"></div>
+     <form name="quizform" onsubmit="return reponse">
+     <table border="2" >
+         <tr>
+             <th>1. Quel est le titre du second album studio de Stromae, sortie en 2013 ?</th>
+             <td><input type="radio" value="a" name="Q1">cheese<br>
+                <input type="radio" name="Q1" value="b">Pourquoi pas moi<br>
+        
+                <input type="radio" name="Q1" value="c">Racine carrée
+            </td>
+         </tr>
+         <tr>
+                <th> Quel groupe a interprété la chanson « C.R.E.A.M. » ?</th>
+                <td><input type="radio" value="a" name="Q2">Black Eyed Peas<br>
+                   <input type="radio" name="Q2" value="b">Public Enemy<br>
+                   <input type="radio" name="Q2" value="c">Wu-Tang Clan
+               </td>
+            </tr>
+            <tr>
+                    <th>3. Quel titre Robin Thicke a-t-il interprété aux côtés de T.I et Pharell Williams ?</th>
+                    <td><input type="radio" value="a" name="Q3">Blurred Lines<br>
+                       <input type="radio" name="Q3" value="c">Everytime
+                       <br>
+                       <input type="radio" name="Q3" value="c">Call On Me
+                   </td>
+                </tr>
+                <tr>
+                        <th>4. Quelle chanteuse a pris « le large » dans l’une de ses chansons ?</th>
+                        <td><input type="radio" value="a" name="Q4">Tal<br>
+                           <input type="radio" name="Q4" value="b">Amel Bent<br>
+                           <input type="radio" name="Q4" value="c">Vitaa
+                       </td>
+                    </tr>
+                    <tr>
+                            <th>5. Quel groupe est formé par Thomas Bangalter et Guy-Manuel de Homem-Christo ?</th>
+                            <td><input type="radio" value="a" name="Q5">Poney Poney Run Run<br>
+                               <input type="radio" name="Q5" value="b">Daft Punk
+                               <br>
+                               <input type="radio" name="Q5" value="c">Phoenix
+                           </td>
+                        </tr>
+                        <tr>
+                                <th>6. De quel pays, les Beatles sont-ils originaires ?</th>
+                                <td><input type="radio" value="a" name="Q6" >États-Unis<br>
+                                   <input type="radio" name="Q6" value="b">Allemagne<br>
+                                   <input type="radio" name="Q6" value="c">Angleterre
+                               </td>
+                            </tr>
+                            <tr>
+                                    <th>7. Quel groupe a interprété le tube « AM, Do i wanna know » ?</th>
+                                    <td><input type="radio" value="a" name="Q7">The Offspring<br>
+                                       <input type="radio" name="Q7" value="b">Oasis<br>
+                                       <input type="radio" name="Q7" value="c">Arctic Monkeys
+                                       
+                                   </td>
+                                </tr>
+                                <tr>
+                                        <th>8. Qui interprète le tube « Andalouse » ?</th>
+                                        <td><input type="radio" value="a" name="Q8">Keen' V<br>
+                                           <input type="radio" name="Q8" value="b">Kendji Girac<br>
+                                           <input type="radio" name="Q8" value="c">Julien Doré
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                            <th>9. Quel artiste interprète le tube " Berzerk " ?</th>
+                                            <td><input type="radio" value="a" name="Q9">Kanye West<br>
+                                               <input type="radio" name="Q9" value="b">Stromae<br>
+                                               <input type="radio" name="Q9" value="c">Eminem
+                                           </td>
+                                        </tr>
+                                        <tr>
+                                                <th>10. Quelle jeune chanteuse française interprète le tube « On ira » en 2013 ?
+                                                    </th>
+                                                <td><input type="radio" value="a" name="Q10"> Olivia Ruiz<br>
+                                                   <input type="radio" name="Q10"value="b">Diam’s<br>
+                                                   <input type="radio" name="Q10" value="c">Zaz
+                                               </td>
+                                            </tr>
+     </table>
+     <div style="text-align:center;" class="Go" >
+     <input type="button" value="Go" onclick="reponse()"> 
+     </div>
+    </form>
+        
+    </body>
+
+</html>
